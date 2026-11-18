@@ -1,0 +1,39 @@
+/*para el cursor al pasarlo*/
+nav a:hover{
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+nav a:focus{
+    outline: 2px solid var(--color-secundario);
+}
+nav a:active{
+    color: var(--color-blanco);
+}
+/*efectos del cursor para github*/
+.enlace-github:hover{
+    color: var(--color-secundario);
+}
+
+/*efecto del cursor para LinkedIn*/
+.enlace-linkedin:hover {
+    color: var(--color-secundario);
+}
+
+/*efectos para los botones de los proyectos*/
+.boton-proyecto:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+/*movimiento de las tarjetas de proyectos*/
+#proyectos article:hover{
+    transform: translateY(-8px);
+}
+
+/*efecto al pasar el cursor sobre las herramientas*/
+.lista-herramientas li:hover {
+    transform: scale(1.05);
+}
+
+
+
+

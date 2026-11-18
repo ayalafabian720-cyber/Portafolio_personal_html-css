@@ -1,0 +1,105 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+/*distribucion de sobre mi*/
+.presentacion{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/*Columna del texto*/
+.descripcion {
+    flex: 1;
+}
+/*distribucion de los proyectos*/
+.contenedor-proyectos{
+    display: flex;
+    gap: 20px;
+}
+/*tamaño de las tarjetas*/
+.contenedor-proyectos article{
+    flex: 1;
+}
+
+/*distribucion de habilidades*/
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/*tamaño de las habilidades*/
+.lista-habilidades li {
+    flex: 1;
+    min-width: 180px;
+}
+/*distribucion de herramientas*/
+.lista-herramientas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/*tamaño de las herramientas*/
+.lista-herramientas li {
+    flex: 1;
+    min-width: 150px;
+}
+
+/*distribucion de contacto*/
+.datos-contacto{
+    display: flex;
+    gap: 20px;
+}
+/*tamaño de los cuadritos*/
+.datos-contacto div{
+    flex: 1;
+}
+
+
+/*seccion experiencia*/
+#experiencia {
+    margin: 30px 35px;
+}
+/*titulo principal*/
+#experiencia h2 {
+    color: var(--color-principal);
+    font-size: 24px;
+    border-left: 4px solid var(--color-secundario);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+/*descripcion de la seccion*/
+#experiencia p {
+    color: var(--color-gris);
+    font-size: 15px;
+    line-height: 1.6;
+}
+/*tarjetas de experiencia*/
+#experiencia article {
+    background-color: #eaeaea;
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+/*iconos*/
+#experiencia img {
+    width: 40px;
+    height: 40px;
+}
+/*titulos de las experiencias*/
+#experiencia h3 {
+    color: var(--color-principal);
+    font-size: 16px;
+    margin-top: 0;
+}
+/*textos de las experiencias*/
+#experiencia article p {
+    color: var(--color-gris);
+    font-size: 14px;
+}
+
+

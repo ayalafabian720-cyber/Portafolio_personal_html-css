@@ -1,0 +1,315 @@
+:root{
+    --color-principal: #292929;
+    --color-secundario:#f28c40;
+    --color-fondo: #ffffff;
+    --color-texto: #292929;
+    --color-gris: #666666;
+    --color-blanco: #ffffff;
+}
+body{
+    margin: 0;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: var(--color-principal);
+    padding: 20px 35px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav h2{
+    color: var(--color-blanco);
+    font-size: 20px;
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a{
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-size: 14px;
+}
+nav h2{
+    color: var(--color-blanco);
+    font-size: 20px;
+    margin: 0;
+    border-left: 4px solid var(--color-secundario);
+    padding-left: 10px;
+}
+/*seccion sobre mi*/
+#sobre-mi {
+    background-color: var(--color-blanco);
+    margin: 30px 35px;
+}
+#sobre-mi h2 {
+    color: var(--color-principal);
+    font-size: 24px;
+    border-left: 4px solid var(--color-secundario);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+/*Contenedor de la presentacion*/
+.presentacion {
+    background-color: #eaeaea;
+    padding: 25px;
+}
+/*para la foto*/
+#sobre-mi img {
+    width: 200px;
+    height: auto;
+}
+.foto-perfil{
+    background-image: var(--color-secundario);
+    padding: 10px;
+    border-radius: 10px;
+}
+/*para la foto personal*/
+.foto-perfil img{
+    width: 200px;
+    height: auto;
+    display: block;
+    background-color: var(--color-blanco);
+}
+/*diseño de la foto*/
+.foto-perfil {
+    background-image: linear-gradient(
+        135deg,
+        var(--color-secundario) 45%,
+        var(--color-blanco) 45%);
+        padding: 10px;
+        border-radius: 10px;
+}
+/*textos*/
+.descripcion h3 {
+    color: var(--color-principal);
+    font-size: 13px;
+}
+
+.descripcion h1 {
+    color: var(--color-principal);
+    font-size: 32px;
+}
+
+.descripcion p {
+    color: var(--color-gris);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/*seccion proyectos*/
+#proyectos {
+    margin: 30px 35px;
+}
+#proyectos h2 {
+    color: var(--color-principal);
+    font-size: 24px;
+    border-left: 4px solid var(--color-secundario);
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+#proyectos > p {
+    color: var(--color-gris);
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+/*tarjetas de cada proyecto*/
+#proyectos article {
+    background-color: var(--color-blanco);
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+/*imagenes*/
+#proyectos img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+/*titulos*/
+#proyectos h3 {
+    color: var(--color-principal);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/*descripciones*/
+#proyectos p {
+    color: var(--color-gris);
+    font-size: 15px;
+    line-height: 1.6;
+}
+/*tecnologias*/
+#proyectos .tecnologias {
+    background-color: #fff0e5;
+    color: #a84e14;
+    padding: 7px 12px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+
+/*seccion habilidades*/
+#habilidades {
+    margin: 30px 35px;
+}
+/*titulo principal*/
+#habilidades h2 {
+    color: var(--color-principal);
+    font-size: 24px;
+    border-left: 4px solid var(--color-secundario);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+/*para los subtitulos*/
+#habilidades h3 {
+    color: var(--color-principal);
+    font-size: 19px;
+}
+/*descripciones*/
+#habilidades p {
+    color: var(--color-gris);
+    font-size: 15px;
+    line-height: 1.6;
+}
+/*habilidades personales*/
+.habilidades-personales {
+    margin-bottom: 35px;
+}
+/*lista de habilidades*/
+.lista-habilidades {
+    list-style: none;
+    padding: 0;
+}
+/*cada habilidad*/
+.lista-habilidades li {
+    background-color: #eaeaea;
+    color: var(--color-principal);
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+/*para la parte de las herramientas*/
+.herramientas {
+    margin-bottom: 20px;
+}
+/*lista de herramientas*/
+.lista-herramientas {
+    list-style: none;
+    padding: 0;
+}
+/*cada herramienta*/
+.lista-herramientas li {
+    background-color: #fff0e5;
+    color: var(--color-principal);
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    transition: transform 0.3s;
+}
+
+
+/*seccion experiencia*/
+#experiencia {
+    margin: 30px 35px;
+}
+/*titulo*/
+#experiencia h2{
+    color: var(--color-principal);
+    font-size: 24px;
+    border-left: 4px solid var(--color-secundario);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+/*bloques de experiencia*/
+#experiencia article{
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid var(--color-secundario);
+}
+/*titulo de los bloques*/
+#experiencia h3{
+    color: var(--color-principal);
+    font-size: 18px;
+    margin-top: 0;
+}
+/*descripciones*/
+#experiencia p{
+    color: var(--color-gris);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/*seccion de contacto*/
+#contactos {
+    margin: 30px 35px;
+}
+/*titulo*/
+#contactos h2 {
+    color: var(--color-principal);
+    font-size: 24px;
+    border-left: 4px solid var(--color-secundario);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+/*descripcion*/
+#contactos p {
+    color: var(--color-gris);
+    font-size: 15px;
+}
+/*tarjetas de contacto*/
+.datos-contacto div {
+    background-color: #f4f4f4;
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+/*iconos*/
+.datos-contacto img {
+    width: 35px;
+    height: 35px;
+}
+/*titulos de contacto*/
+.datos-contacto h3 {
+    color: var(--color-principal);
+    font-size: 17px;
+}
+/*enlace de GitHub*/
+.datos-contacto a {
+    color: var(--color-principal);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+/*para la seccion del footer*/
+footer {
+    background-color: var(--color-principal);
+    padding: 20px 35px;
+}
+/*texto del footer*/
+footer p {
+    color: var(--color-blanco);
+    font-size: 14px;
+    margin: 0;
+}
+
+/*botones del proyecto*/
+.boton-proyecto{
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;
+}
