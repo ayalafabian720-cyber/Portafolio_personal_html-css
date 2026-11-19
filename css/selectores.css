@@ -32,6 +32,27 @@ nav a:active{
 /*efecto al pasar el cursor sobre las herramientas*/
 .lista-herramientas li:hover {
     transform: scale(1.05);
+    background-color: #ffe0c9;
+}
+
+/*mostrar el detalle al pasar el cursor en las habilidades*/
+.lista-habilidades li:hover .detalle-habilidad {
+    display: block;
+}
+/*cambiar el color del boton en las habilidades*/
+.lista-habilidades button:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+/*para el color del boton al pasar el cursor del formulario*/
+.formulario-contacto button:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+}
+
+/*mostrar la descripcion de las herramientas al pasar el cursor*/
+.lista-herramientas li:hover .detalle-herramienta {
+    display: block;
 }
 
 

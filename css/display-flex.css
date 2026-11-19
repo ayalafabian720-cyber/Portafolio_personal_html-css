@@ -46,8 +46,8 @@ nav ul{
 }
 /*tamaño de las herramientas*/
 .lista-herramientas li {
-    flex: 1;
-    min-width: 150px;
+    width: 21%;
+    flex-wrap: wrap;
 }
 
 /*distribucion de contacto*/
@@ -85,11 +85,7 @@ nav ul{
     padding: 15px;
     border: 1px solid #dddddd;
 }
-/*iconos*/
-#experiencia img {
-    width: 40px;
-    height: 40px;
-}
+
 /*titulos de las experiencias*/
 #experiencia h3 {
     color: var(--color-principal);

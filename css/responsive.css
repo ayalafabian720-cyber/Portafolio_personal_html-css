@@ -1,0 +1,69 @@
+
+/*Diseño para tablets*/
+@media (max-width: 900px) {
+
+    /*Proyectos en dos columnas*/
+    .contenedor-proyectos {
+        flex-wrap: wrap;
+    }
+    .contenedor-proyectos article {
+        min-width: 40%;
+    }
+    /*Presentacion personal*/
+    .presentacion {
+        gap: 20px;
+    }
+    /*Navegacion*/
+    nav ul {
+        gap: 10px;
+    }
+}
+
+/*Diseño para celulares*/
+@media (max-width: 600px) {
+
+    /*Navegacion*/
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    /*Sobre mi*/
+    .presentacion {
+        flex-direction: column;
+    }
+    .foto-perfil {
+        margin: auto;
+    }
+    /*Proyectos*/
+    .contenedor-proyectos {
+        flex-direction: column;
+    }
+    .contenedor-proyectos article {
+        min-width: 0;
+    }
+    /*habilidades*/
+    .lista-habilidades li {
+        width: 100%;
+    }
+    /*herramientas*/
+    .lista-herramientas li {
+        width: 100%;
+    }
+    /*Contacto */
+    .datos-contacto {
+        flex-direction: column;
+    }
+    /*tabla de experiencia */
+    .tabla-experiencia img {
+        width: 85px;
+        height: 85px;
+    }
+    .tabla-experiencia td {
+        padding: 10px;
+    }
+}

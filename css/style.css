@@ -157,7 +157,7 @@ nav h2{
 }
 
 
-/*seccion habilidades*/
+/*SECCION DE LAS HABILIDADES*/
 #habilidades {
     margin: 30px 35px;
 }
@@ -189,14 +189,49 @@ nav h2{
     list-style: none;
     padding: 0;
 }
-/*cada habilidad*/
+/*para cada habilidad*/
 .lista-habilidades li {
     background-color: #eaeaea;
     color: var(--color-principal);
     padding: 15px;
     text-align: center;
     font-size: 14px;
+    border-radius: 10px;
 }
+
+/*para el titulo de las habilidades*/
+.lista-habilidades li > p {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/*botones de habilidades*/
+.lista-habilidades button {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*descripcion oculta*/
+.detalle-habilidad {
+    display: none;
+    margin-top: 15px;
+}
+.detalle-habilidad img {
+    width: 45px;
+    height: 45px;
+}
+.detalle-habilidad p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
 /*para la parte de las herramientas*/
 .herramientas {
     margin-bottom: 20px;
@@ -206,16 +241,27 @@ nav h2{
     list-style: none;
     padding: 0;
 }
-/*cada herramienta*/
+
+/*para el diseño de cada tarjeta de las herramienta*/
 .lista-herramientas li {
     background-color: #fff0e5;
-    color: var(--color-principal);
+    color: #222222;
     padding: 15px;
     text-align: center;
-    font-size: 14px;
-    transition: transform 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
 }
 
+/*para la descripcion de las herramientas*/
+.detalle-herramienta {
+    display: none;
+    width: 100%;
+    color: #444444;
+    font-size: 13px;
+    margin-top: 12px;
+}
 
 /*seccion experiencia*/
 #experiencia {
@@ -229,13 +275,37 @@ nav h2{
     padding-left: 10px;
     margin-bottom: 20px;
 }
-/*bloques de experiencia*/
-#experiencia article{
-    background-color: #eaeaea;
-    padding: 20px;
-    margin-bottom: 15px;
-    border-left: 4px solid var(--color-secundario);
+
+
+/*---para la tabla de experiencia---*/
+.tabla-experiencia {
+    width: 100%;
+    border-spacing: 0 15px;
 }
+/*Celdas*/
+.tabla-experiencia td {
+    background-color: #eaeaea;
+    padding: 10px;
+    border-bottom: 4px solid #f28c40;
+}
+/*Imagenes*/
+.tabla-experiencia img {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+/*titulos*/
+.tabla-experiencia h3 {
+    color: var(--color-principal);
+    font-size: 18px;
+}
+/*descripciones*/
+.tabla-experiencia p {
+    color: var(--color-gris);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
 /*titulo de los bloques*/
 #experiencia h3{
     color: var(--color-principal);
@@ -288,6 +358,37 @@ nav h2{
     color: var(--color-principal);
     font-size: 15px;
     text-decoration: none;
+}
+
+/*para la seccion del formulario*/
+.formulario-contacto {
+    background-color: #eeeeee;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+/*titulo del formulario */
+.formulario-contacto h3 {
+    color: #222222;
+    font-size: 20px;
+}
+/*Campos del formulario */
+.formulario-contacto input {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+/*boton del formulario */
+.formulario-contacto button {
+    background-color: #292929;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
 }
 
 

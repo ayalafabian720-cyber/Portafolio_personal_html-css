@@ -1,54 +1,44 @@
 
 /*estilos de FERNER*/
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #292929;
 }
-
 header {
     background-color: #292929;
     color: white;
     padding: 30px 35px;
 }
-
 header h1 {
     color: #f28c40;
     font-size: 36px;
     margin: 0;
 }
-
 header p {
     margin-bottom: 0;
 }
-
 main {
     margin: 30px 35px;
 }
-
 section {
     margin-bottom: 35px;
 }
-
 section h2 {
     border-left: 4px solid #f28c40;
     padding-left: 10px;
 }
-
 section p {
     color: #666666;
     line-height: 1.6;
 }
 
 /*galeria*/
-
 .galeria {
     display: flex;
     gap: 20px;
 }
-
 .galeria article {
     flex: 1;
     background-color: #f4f4f4;
@@ -56,22 +46,18 @@ section p {
     border-radius: 10px;
     transition: transform 0.3s;
 }
-
 .galeria article:hover {
     transform: translateY(-8px);
 }
-
 .galeria img {
     width: 100%;
     border-radius: 8px;
 }
-
 .galeria h3 {
     font-size: 17px;
 }
 
 /*boton de regreso*/
-
 .boton-volver {
     display: inline-block;
     background-color: #292929;
@@ -81,20 +67,17 @@ section p {
     border-radius: 8px;
     transition: background-color 0.3s;
 }
-
 .boton-volver:hover {
     background-color: #f28c40;
     color: #292929;
 }
 
 /*pie de pagina*/
-
 footer {
     background-color: #292929;
     color: white;
     padding: 20px 35px;
 }
-
 footer p {
     margin: 0;
 }
